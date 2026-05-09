@@ -57,6 +57,18 @@ I am a developer deeply focused on **Deep Learning**, **Large Language Model (LL
 
 ---
 
+### 📦 代码仓库语言占比
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AttentionCasria&repo=AttentionCasria&layout=compact&hide_title=false&card_width=400" alt="Top Langs" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/AttentionCasria/AttentionCasria?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/count/AttentionCasria/AttentionCasria?style=for-the-badge" />
+</p>
+
+---
+
 ### 📊 Github Statistics
 
 <p align="center">
