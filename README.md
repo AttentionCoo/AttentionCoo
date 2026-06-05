@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Attention | AI Algorithm Engineer & Developer
 
 <p align="center">
-  <img src="assets/bz.jpg" width="200" />
-  <img src="assets/fnn.jpg" width="200" />
-  <img src="assets/welt.jpg" width="200" />
   <img src="assets/bqj.jpg" width="200" />
+  <img src="assets/welt.jpg" width="200" />
+  <img src="assets/fnn.jpg" width="200" />
+  <img src="assets/bz.jpg" width="200" />
 </p>
 
 <div align="center">
