@@ -23,7 +23,7 @@ I am a developer deeply focused on **Deep Learning**, **Large Language Model (LL
 - 🧠 **Research & Algorithms**: Deep Learning architectures, PEFT (Parameter-Efficient Fine-Tuning), model quantization, and optimization.
 - 💻 **Engineering**: Leveraging Python (PyTorch/FastAPI) and Java/Spring Boot to build high-concurrency, robust backend APIs and microservices for AI models.
 - 🌱 **Learning**: Multi-Agent orchestration, Multimodal Models, and Distributed Systems.
-- 💬 **Ask me about**: `PyTorch`, `Transformers`, `LangChain`, `RAG`, `Spring Boot`, or **how to accidentally get a CVPR accepted**.
+- 💬 **Ask me about**: `PyTorch`, `Transformers`, `LangChain`, `LangGraph`, `Multi-Agent`, `RAG`, `SpringCloud`, `Mysql`, `Redis`, `Spring Boot`, or **how to accidentally get a CVPR accepted**.
 
 <p align="left">
   <a href="https://github.com/AttentionCasria" target="blank">
