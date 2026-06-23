@@ -74,7 +74,7 @@ I am a developer deeply focused on **Deep Learning**, **Large Language Model (LL
 ### 📊 Github Statistics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AttentionCasria&theme=transparent" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AttentionCoo&theme=transparent" alt="GitHub Streak" />
 </p>
 
 ---
