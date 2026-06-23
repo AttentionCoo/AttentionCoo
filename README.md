@@ -8,7 +8,7 @@
 </p>
 
 <div align="center">
-  <img src="https://count.getloli.com/get/@AttentionCasria?theme=moebooru" alt="Moe Counter" />
+  <img src="https://count.getloli.com/get/@AttentionCoo?theme=moebooru" alt="Moe Counter" />
 </div>
 
 ---
@@ -62,11 +62,11 @@ I am a developer deeply focused on **Deep Learning**, **Large Language Model (LL
 ### 📦 代码仓库语言占比
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AttentionCasria&layout=compact&hide_title=false&card_width=400" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AttentionCoo&layout=compact&hide_title=false&card_width=400" alt="Top Langs" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/AttentionCasria/AttentionCasria?style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/count/AttentionCasria/AttentionCasria?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/top/AttentionCasria/AttentionCoo?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/count/AttentionCasria/AttentionCoo?style=for-the-badge" />
 </p>
 
 ---
@@ -82,5 +82,5 @@ I am a developer deeply focused on **Deep Learning**, **Large Language Model (LL
 ### 📅 Contribution Activity
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AttentionCasria&theme=flat" alt="trophy" /></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AttentionCoo&theme=flat" alt="trophy" /></a>
 </p>
