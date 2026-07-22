@@ -98,7 +98,8 @@ Linux
 ## GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AttentionCoo&show_icons=true&theme=transparent" alt="GitHub stats for AttentionCoo" />
+  <img height="180" src="generated/github-stats.svg" alt="GitHub stats for AttentionCoo" />
+  <img height="180" src="generated/top-langs.svg" alt="Top languages for AttentionCoo" />
 </p>
 
 <p align="center">
@@ -130,6 +131,14 @@ Research project exploring:
 - Memory Architecture
 - Tool Calling
 - Workflow Orchestration
+
+---
+
+## GitHub Trophy
+
+<p align="center">
+  <img src="generated/trophy.svg" alt="GitHub trophy for AttentionCoo" />
+</p>
 
 ---
 

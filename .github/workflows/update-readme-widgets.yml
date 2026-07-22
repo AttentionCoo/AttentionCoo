@@ -1,0 +1,71 @@
+name: Update README widgets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */12 * * *"
+  push:
+    branches:
+      - master
+    paths:
+      - README.md
+      - scripts/generate-readme-stats.mjs
+      - .github/workflows/update-readme-widgets.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-widgets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Checkout github-readme-stats fork
+        uses: actions/checkout@v4
+        with:
+          repository: AttentionCoo/github-readme-stats
+          ref: master
+          path: .cache/github-readme-stats
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: .cache/github-readme-stats/package-lock.json
+
+      - name: Install github-readme-stats dependencies
+        working-directory: .cache/github-readme-stats
+        run: npm ci
+
+      - name: Generate stats cards
+        env:
+          GITHUB_USERNAME: AttentionCoo
+          GRS_DIR: .cache/github-readme-stats
+          PAT_1: ${{ github.token }}
+        run: node scripts/generate-readme-stats.mjs
+
+      - name: Generate trophy card
+        uses: AttentionCoo/github-profile-trophy@master
+        with:
+          username: AttentionCoo
+          output_path: generated/trophy.svg
+          token: ${{ github.token }}
+          theme: flat
+
+      - name: Commit generated widgets
+        shell: bash
+        run: |
+          if git diff --quiet -- generated; then
+            echo "No widget changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated
+          git commit -m "自动更新 README 动态卡片"
+          git push

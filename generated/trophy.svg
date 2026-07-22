@@ -1,0 +1,6 @@
+<svg width="800" height="160" viewBox="0 0 800 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub trophy placeholder">
+  <rect width="800" height="160" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="28" y="48" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">AttentionCoo GitHub Trophy</text>
+  <text x="28" y="86" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="15">GitHub Actions will generate the real trophy SVG from your fork.</text>
+  <text x="28" y="116" fill="#5a67d8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Source: AttentionCoo/github-profile-trophy</text>
+</svg>
