@@ -45,7 +45,7 @@ jobs:
         env:
           GITHUB_USERNAME: AttentionCoo
           GRS_DIR: .cache/github-readme-stats
-          PAT_1: ${{ github.token }}
+          PAT_1: ${{ secrets.README_WIDGET_TOKEN || secrets.GITHUB_TOKEN }}
         run: node scripts/generate-readme-stats.mjs
 
       - name: Generate trophy card
@@ -53,7 +53,7 @@ jobs:
         with:
           username: AttentionCoo
           output_path: generated/trophy.svg
-          token: ${{ github.token }}
+          token: ${{ secrets.README_WIDGET_TOKEN || secrets.GITHUB_TOKEN }}
           theme: flat
 
       - name: Commit generated widgets
