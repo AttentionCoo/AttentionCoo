@@ -30,6 +30,13 @@ jobs:
           ref: master
           path: .cache/github-readme-stats
 
+      - name: Checkout github-profile-trophy fork
+        uses: actions/checkout@v4
+        with:
+          repository: AttentionCoo/github-profile-trophy
+          ref: master
+          path: .cache/github-profile-trophy
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -56,6 +63,26 @@ jobs:
           output_path: generated/trophy.svg
           token: ${{ secrets.README_WIDGET_TOKEN || secrets.GITHUB_TOKEN || github.token }}
           theme: flat
+
+      - name: Setup Deno for trophy fallback
+        if: always()
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Generate trophy fallback
+        if: always()
+        env:
+          GITHUB_USERNAME: AttentionCoo
+          TROPHY_REPO_DIR: .cache/github-profile-trophy
+          OUTPUT_PATH: generated/trophy.svg
+          PAT_1: ${{ secrets.README_WIDGET_TOKEN || secrets.GITHUB_TOKEN || github.token }}
+        run: |
+          if grep -q "GitHub Actions will generate the real trophy" generated/trophy.svg; then
+            deno run --allow-net --allow-read --allow-write --allow-env scripts/generate-trophy-rest.ts
+          else
+            echo "Trophy card already generated."
+          fi
 
       - name: Commit generated widgets
         shell: bash
