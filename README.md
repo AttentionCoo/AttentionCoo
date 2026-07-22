@@ -1,86 +1,63 @@
-# 👋 Hi, I'm Attention | AI Algorithm Engineer & Developer
+# Hi, I'm AttentionCoo
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Attention%20Casria&fontSize=70" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2A8,100:5A67D8&height=200&section=header&text=AttentionCoo&fontSize=70&fontColor=ffffff" alt="AttentionCoo banner" />
 </p>
 
-<div align="center">
-  <img src="https://count.getloli.com/get/@AttentionCasria?theme=moebooru" alt="Moe Counter" />
-</div>
-
----
-
-### 💫 About Me
-<img align="right" width="220" src="./images/jupai.png" alt="Anime Girl" />
-
-I am a developer deeply focused on **Deep Learning**, **Large Language Model (LLM) Algorithms**, and **AI Application Development**, supplemented by a solid foundation in **Java Backend Development**. I aim to bridge the gap between cutting-edge AI research and robust, scalable engineering systems.
-
-- 🔭 **Current Focus**: Architecting LLM-driven applications (Agents, RAG) & building intelligent generative AI systems.
-- 🧠 **Research**: Deep Learning architectures, LLM Fine-tuning, and model inference optimization.
-- 💻 **Engineering**: Leveraging Java/Spring Boot and Python to build robust backend APIs and microservices for AI models.
-- 🌱 **Learning**: Agentic AI workflows, Multimodal Models, and Distributed Systems.
-- 💬 **Ask me about**: `PyTorch`, `Transformers`, `LangChain`, `RAG`, or `Spring Boot`.
-
-<p align="left">
-  <a href="https://github.com/AttentionCasria" target="blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<p align="center">
+  <a href="https://github.com/AttentionCoo">
+    <img src="https://img.shields.io/badge/GitHub-AttentionCoo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: AttentionCoo" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=AttentionCoo&style=for-the-badge&color=brightgreen" alt="Profile views" />
 </p>
 
 ---
 
-### 🛠️ Tech Stack
+## About Me
 
-#### 🤖 Deep Learning & Large Language Models
+<img align="right" width="220" src="./assets/bz.jpg" alt="Profile illustration" />
+
+I am an AI algorithm engineer and developer focused on deep learning, large language model algorithms, and AI application development. I also work with Java backend systems, so I care about bringing research ideas into reliable engineering products.
+
+- **Current Focus**: LLM-driven applications, Agents, RAG, and generative AI systems.
+- **Research**: Deep learning architectures, LLM fine-tuning, and model inference optimization.
+- **Engineering**: Java/Spring Boot and Python backends for AI services.
+- **Learning**: Agentic workflows, multimodal models, and distributed systems.
+- **Ask me about**: `PyTorch`, `Transformers`, `LangChain`, `RAG`, or `Spring Boot`.
+
+---
+
+## Tech Stack
+
+### Deep Learning & LLM
+
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn,opencv,anaconda" />
-  <br>
-  <img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="45" height="45" alt="huggingface" />
-  <img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="45" height="45" alt="langchain" />
-  <img src="https://cdn.simpleicons.org/ollama/000000" width="45" height="45" alt="ollama" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="45" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="45" height="45" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn,opencv,anaconda" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda" />
 </p>
 
-#### ☕ Backend & Infrastructure
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,kafka,rabbitmq,nginx,docker,linux,fastapi,flask" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge" alt="Ollama" />
 </p>
 
-#### 🔧 Tools & Workflow
+### Backend & Infrastructure
+
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,postman,selenium" />
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,kafka,rabbitmq,nginx,docker,linux,fastapi,flask" alt="Java, Spring, MySQL, MongoDB, Redis, Kafka, RabbitMQ, Nginx, Docker, Linux, FastAPI, Flask" />
+</p>
+
+### Tools & Workflow
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,postman,selenium" alt="Git, Postman, Selenium" />
 </p>
 
 ---
 
-### 📊 Github Statistics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AttentionCasria&show_icons=true&theme=transparent&locale=en" />
-      </td>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AttentionCasria&layout=compact&theme=transparent&locale=en" />
-      </td>
-    </tr>
-  </table>
-</div>
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AttentionCasria&theme=transparent" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=AttentionCoo&theme=transparent" alt="GitHub streak for AttentionCoo" />
 </p>
 
----
-
-### 📅 Contribution Activity
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AttentionCasria/AttentionCasria/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AttentionCasria&theme=flat" alt="trophy" /></a>
-</p>
