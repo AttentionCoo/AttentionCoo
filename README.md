@@ -5,6 +5,13 @@
 </p>
 
 <p align="center">
+  <img src="assets/bqj.jpg" width="180" alt="Profile image 1" />
+  <img src="assets/welt.jpg" width="180" alt="Profile image 2" />
+  <img src="assets/fnn.jpg" width="180" alt="Profile image 3" />
+  <img src="assets/bz.jpg" width="180" alt="Profile image 4" />
+</p>
+
+<p align="center">
   <a href="https://github.com/AttentionCoo">
     <img src="https://img.shields.io/badge/GitHub-AttentionCoo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: AttentionCoo" />
   </a>
@@ -15,49 +22,117 @@
 
 ## About Me
 
-<img align="right" width="220" src="./assets/bz.jpg" alt="Profile illustration" />
+AI Algorithm Engineer & Developer
 
-I am an AI algorithm engineer and developer focused on deep learning, large language model algorithms, and AI application development. I also work with Java backend systems, so I care about bringing research ideas into reliable engineering products.
+Focused on:
 
-- **Current Focus**: LLM-driven applications, Agents, RAG, and generative AI systems.
-- **Research**: Deep learning architectures, LLM fine-tuning, and model inference optimization.
-- **Engineering**: Java/Spring Boot and Python backends for AI services.
-- **Learning**: Agentic workflows, multimodal models, and distributed systems.
-- **Ask me about**: `PyTorch`, `Transformers`, `LangChain`, `RAG`, or `Spring Boot`.
+- Large Language Models (LLM)
+- Deep Learning
+- Retrieval Augmented Generation (RAG)
+- AI Agent & Multi-Agent Systems
+- Backend Engineering
+
+Currently building:
+
+> Production-ready AI applications powered by LLM Agents and RAG.
+
+Research interests:
+
+- Transformer Architecture
+- Parameter Efficient Fine-Tuning (PEFT)
+- Model Quantization
+- Multimodal AI
+- Intelligent Agent Systems
 
 ---
 
 ## Tech Stack
 
-### Deep Learning & LLM
+### AI / Deep Learning
 
-<p align="left">
+<p>
   <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn,opencv,anaconda" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda" />
 </p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge" alt="Ollama" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45" alt="NumPy" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="45" alt="Pandas" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="45" alt="Jupyter" />
 </p>
 
-### Backend & Infrastructure
+AI Framework:
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,kafka,rabbitmq,nginx,docker,linux,fastapi,flask" alt="Java, Spring, MySQL, MongoDB, Redis, Kafka, RabbitMQ, Nginx, Docker, Linux, FastAPI, Flask" />
-</p>
-
-### Tools & Workflow
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,postman,selenium" alt="Git, Postman, Selenium" />
-</p>
+```text
+PyTorch
+Transformers
+LangChain
+LangGraph
+LlamaIndex
+Ollama
+FastAPI
+```
 
 ---
 
-## GitHub Activity
+## Backend Engineering
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,redis,mongodb,docker,linux,nginx,kafka" alt="Java, Spring, MySQL, Redis, MongoDB, Docker, Linux, Nginx, Kafka" />
+</p>
+
+Backend:
+
+```text
+Spring Boot
+Spring Cloud
+MyBatis
+Redis
+MySQL
+RabbitMQ
+Docker
+Linux
+```
+
+---
+
+## GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AttentionCoo&show_icons=true&theme=transparent" alt="GitHub stats for AttentionCoo" />
+</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=AttentionCoo&theme=transparent" alt="GitHub streak for AttentionCoo" />
 </p>
 
+---
+
+## Featured Projects
+
+### Medical Multi-Agent System
+
+AI-powered clinical decision support system.
+
+Features:
+
+- Medical RAG
+- Multi-Agent Reasoning
+- Knowledge Retrieval
+- LLM Clinical Analysis
+
+---
+
+### Learning Multi-Agent System
+
+Research project exploring:
+
+- Agent Collaboration
+- Memory Architecture
+- Tool Calling
+- Workflow Orchestration
+
+---
+
+<p align="center">
+  Building intelligent systems with AI
+</p>
