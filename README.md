@@ -15,6 +15,8 @@
   <a href="https://github.com/AttentionCoo">
     <img src="https://img.shields.io/badge/GitHub-AttentionCoo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: AttentionCoo" />
   </a>
+  <img src="https://img.shields.io/badge/Researcher-Computer%20Vision-5A67D8?style=for-the-badge" alt="Computer Vision Researcher" />
+  <img src="https://img.shields.io/badge/CVPR-1%20Accepted%20Paper-00C2A8?style=for-the-badge" alt="One CVPR accepted paper" />
   <img src="https://komarev.com/ghpvc/?username=AttentionCoo&style=for-the-badge&color=brightgreen" alt="Profile views" />
 </p>
 
@@ -22,10 +24,13 @@
 
 ## About Me
 
-AI Algorithm Engineer & Developer
+AI Researcher & Algorithm Engineer
+
+I am a research-oriented AI practitioner working at the intersection of computer vision, deep learning, and large language model systems.
 
 Focused on:
 
+- Computer Vision Research
 - Large Language Models (LLM)
 - Deep Learning
 - Retrieval Augmented Generation (RAG)
@@ -43,6 +48,13 @@ Research interests:
 - Model Quantization
 - Multimodal AI
 - Intelligent Agent Systems
+
+---
+
+## Research Highlights
+
+- One paper accepted by CVPR.
+- Research work centered on computer vision, deep learning, and intelligent AI systems.
 
 ---
 
