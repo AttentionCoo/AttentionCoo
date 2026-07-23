@@ -40,6 +40,12 @@ const renderLanguages = (topLanguages) => renderTopLanguages(topLanguages, {
   disable_animations: true,
 });
 
+const resolveLanguageColor = (languageColors, name) => {
+  const color = languageColors[name];
+  if (typeof color === "string") return color;
+  return color?.color || "#858585";
+};
+
 const makeErrorSvg = (title, message, width = 450) => `
 <svg width="${width}" height="150" viewBox="0 0 ${width} 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${title}">
   <rect width="${width}" height="150" rx="4" fill="#ffffff" stroke="#fca5a5"/>
@@ -102,7 +108,7 @@ const buildRestFallback = async () => {
     for (const [name, size] of Object.entries(repoLanguages)) {
       languages[name] ||= {
         name,
-        color: languageColors[name]?.color || "#858585",
+        color: resolveLanguageColor(languageColors, name),
         size: 0,
         count: 0,
       };
