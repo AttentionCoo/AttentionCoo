@@ -1,11 +1,11 @@
 <!-- ===================== Header banner ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2A8,100:5A67D8&height=200&section=header&text=AttentionCoo&fontSize=70&fontAlignY=35&fontColor=ffffff" alt="AttentionCoo banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF71CE,50:01CDFE,100:B967FF&height=200&section=header&text=AttentionCoo&fontSize=70&fontAlignY=35&fontColor=ffffff&animation=twinkling" alt="AttentionCoo banner" />
 </p>
 
 <!-- ===================== Typing intro (readme-typing-svg) ===================== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=5A67D8&center=true&vCenter=true&width=600&height=60&lines=AI+Researcher+%26+Algorithm+Engineer;Computer+Vision+%7C+Deep+Learning+%7C+LLM;Building+LLM+Agents+%26+RAG+Systems;1+x+CVPR+Accepted+Paper+%F0%9F%8E%89" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=600&height=60&lines=AI+Researcher+%26+Algorithm+Engineer;Computer+Vision+%7C+Deep+Learning+%7C+LLM;Building+LLM+Agents+%26+RAG+Systems;1+x+CVPR+Accepted+Paper+%F0%9F%8E%89" alt="Typing intro" />
 </p>
 
 <!-- ===================== Character gallery ===================== -->
@@ -27,12 +27,12 @@
   <a href="https://github.com/AttentionCoo?tab=repositories&sort=stargazers">
     <img src="https://custom-icon-badges.demolab.com/github/stars/AttentionCoo?color=55960c&style=for-the-badge&labelColor=488207&logo=star" alt="GitHub stars" />
   </a>
-  <img src="https://img.shields.io/badge/Researcher-Computer%20Vision-5A67D8?style=for-the-badge" alt="Computer Vision Researcher" />
-  <img src="https://img.shields.io/badge/CVPR-1%20Accepted%20Paper-00C2A8?style=for-the-badge" alt="One CVPR accepted paper" />
+  <img src="https://img.shields.io/badge/Researcher-Computer%20Vision-B967FF?style=for-the-badge" alt="Computer Vision Researcher" />
+  <img src="https://img.shields.io/badge/CVPR-1%20Accepted%20Paper-01CDFE?style=for-the-badge" alt="One CVPR accepted paper" />
   <a href="https://github.com/AttentionCoo/AttentionCoo/issues">
-    <img src="https://img.shields.io/badge/Ask%20me%20anything-1abc9c?style=for-the-badge&logo=github&logoColor=white" alt="Ask me anything" />
+    <img src="https://img.shields.io/badge/Ask%20me%20anything-FF6F61?style=for-the-badge&logo=github&logoColor=white" alt="Ask me anything" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=AttentionCoo&style=for-the-badge&color=brightgreen" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=AttentionCoo&style=for-the-badge&color=orange" alt="Profile views" />
 </p>
 
 ---
@@ -50,11 +50,11 @@
 ## 🔬 Research Highlights
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Transformer%20Architecture-5A67D8?style=flat-square" alt="Transformer architecture" />
-  <img src="https://img.shields.io/badge/PEFT-00C2A8?style=flat-square" alt="Parameter efficient fine-tuning" />
-  <img src="https://img.shields.io/badge/Model%20Quantization-5A67D8?style=flat-square" alt="Model quantization" />
-  <img src="https://img.shields.io/badge/Multimodal%20AI-00C2A8?style=flat-square" alt="Multimodal AI" />
-  <img src="https://img.shields.io/badge/Agent%20Systems-5A67D8?style=flat-square" alt="Intelligent agent systems" />
+  <img src="https://img.shields.io/badge/Transformer%20Architecture-FF71CE?style=flat-square" alt="Transformer architecture" />
+  <img src="https://img.shields.io/badge/PEFT-01CDFE?style=flat-square" alt="Parameter efficient fine-tuning" />
+  <img src="https://img.shields.io/badge/Model%20Quantization-B967FF?style=flat-square" alt="Model quantization" />
+  <img src="https://img.shields.io/badge/Multimodal%20AI-05FFA1?style=flat-square" alt="Multimodal AI" />
+  <img src="https://img.shields.io/badge/Agent%20Systems-FF6F61?style=flat-square" alt="Intelligent agent systems" />
 </p>
 
 - 🏆 **1 paper accepted by CVPR**
@@ -130,15 +130,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AttentionCoo&theme=transparent" alt="GitHub streak for AttentionCoo" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="generated/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="generated/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake" src="generated/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="https://streak-stats.demolab.com?user=AttentionCoo&theme=radical" alt="GitHub streak for AttentionCoo" />
 </p>
 
 ---
@@ -153,7 +145,7 @@
 
 <!-- ===================== Footer ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=100:5A67D8,0:00C2A8&height=120&section=footer" alt="Footer wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=100:B967FF,50:01CDFE,0:FF71CE&height=120&section=footer" alt="Footer wave" />
 </p>
 
 <p align="center">

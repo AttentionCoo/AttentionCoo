@@ -10,6 +10,7 @@ on:
     paths:
       - README.md
       - scripts/generate-readme-stats.mjs
+      - scripts/generate-trophy-rest.ts
       - .github/workflows/update-readme-widgets.yml
 
 permissions:
@@ -62,7 +63,7 @@ jobs:
           username: AttentionCoo
           output_path: generated/trophy.svg
           token: ${{ secrets.README_WIDGET_TOKEN || secrets.GITHUB_TOKEN || github.token }}
-          theme: flat
+          theme: radical
 
       - name: Setup Deno for trophy fallback
         if: always()
@@ -83,14 +84,6 @@ jobs:
           else
             echo "Trophy card already generated."
           fi
-
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: AttentionCoo
-          outputs: |
-            generated/github-contribution-grid-snake.svg
-            generated/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Commit generated widgets
         shell: bash

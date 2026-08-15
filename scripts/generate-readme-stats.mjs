@@ -26,7 +26,7 @@ await mkdir(outputDir, { recursive: true });
 
 const renderStats = (stats) => renderStatsCard(stats, {
   show_icons: true,
-  theme: "transparent",
+  theme: "radical",
   locale: "en",
   show: ["reviews", "prs_merged", "prs_merged_percentage"],
   disable_animations: true,
@@ -35,7 +35,7 @@ const renderStats = (stats) => renderStatsCard(stats, {
 const renderLanguages = (topLanguages) => renderTopLanguages(topLanguages, {
   layout: "compact",
   langs_count: 8,
-  theme: "transparent",
+  theme: "radical",
   locale: "en",
   disable_animations: true,
 });

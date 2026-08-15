@@ -120,7 +120,7 @@ const combinedUser = {
 
 const userInfo = UserInfo.fromCombined(combinedUser);
 const card = new Card([], [], -1, 3, 110, 0, 0, false, false);
-const svg = card.render(userInfo, COLORS.flat);
+const svg = card.render(userInfo, COLORS.radical);
 
 const outputDirectory = outputPath.includes("/")
   ? outputPath.replace(/\/[^/]+$/, "")
