@@ -79,10 +79,10 @@ jobs:
           OUTPUT_PATH: generated/trophy.svg
           PAT_1: ${{ secrets.README_WIDGET_TOKEN || secrets.GITHUB_TOKEN || github.token }}
         run: |
-          if grep -q "GitHub Actions will generate the real trophy" generated/trophy.svg; then
-            deno run --allow-net --allow-read --allow-write --allow-env scripts/generate-trophy-rest.ts
+          if grep -q "141321" generated/trophy.svg; then
+            echo "Radical trophy already generated."
           else
-            echo "Trophy card already generated."
+            deno run --allow-net --allow-read --allow-write --allow-env scripts/generate-trophy-rest.ts
           fi
 
       - name: Commit generated widgets
