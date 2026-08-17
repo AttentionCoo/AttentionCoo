@@ -8,7 +8,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Attention's GitHub Stats, Rank: C+</title>
+        <title id="titleId">Attention's GitHub Stats, Rank: C</title>
         <desc id="descId">Total Stars Earned: 20, Total Commits  (last year) : 0, Total PRs: 0, Total PRs Merged: 0, Merged PRs Percentage: 0.00, Total PRs Reviewed: 0, Total Issues: 0, Contributed to (last year): 21</desc>
         <style>
           .header {
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 219.53748662585815;
+        stroke-dashoffset: 220.41015125185532;
       }
     }
   
@@ -143,7 +143,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          C+
+          C
         </text>
       
         </g>
