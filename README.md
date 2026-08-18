@@ -5,7 +5,7 @@
 
 <!-- ===================== Typing intro (readme-typing-svg) ===================== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=640&height=60&lines=AI+Researcher+%26+Algorithm+Engineer;Computer+Vision+%7C+Deep+Learning+%7C+LLM;Building+Medical+%26+Education+Multi-Agents;1+x+CVPR+Accepted+Paper+%F0%9F%8E%89" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=640&height=60&lines=AI+Researcher+%26+Algorithm+Engineer;Computer+Vision+%7C+Deep+Learning+%7C+LLM;Building+Medical+%26+Education+Multi-Agents;1+x+CVPR+Accepted+Paper" alt="Typing intro" />
 </p>
 
 <!-- ===================== Character gallery ===================== -->
@@ -37,14 +37,14 @@
 
 ---
 
-## 👋 About Me
+## 🧑‍💻 About Me
 
 > Deep learning & LLM algorithm engineer with a solid Java backend foundation — building production-ready AI agent systems.
 
 - 🔭 **Currently building:** [MedLLM](https://github.com/AttentionCoo/stroke-multi-agent-cdss) — a stroke multi-agent clinical decision support system, and [LearnAgent](https://github.com/AttentionCoo/learning-characterizing-mas) — a personalized medical-education multi-agent system
 - 🧠 **Focused on:** Computer Vision, Large Language Models, RAG, AI Agent & Multi-Agent Systems, Backend Engineering
 - 🎯 **Research interests:** Transformer architecture, model fine-tuning (PEFT), inference optimization, multimodal AI
-- 🏆 **Publication:** 1 paper accepted by CVPR
+- 📄 **Publication:** 1 paper accepted by CVPR
 - 💬 **Ask me anything:** [open an issue](https://github.com/AttentionCoo/AttentionCoo/issues) and let's talk
 
 ---
@@ -59,12 +59,12 @@
   <img src="https://img.shields.io/badge/Agent%20Systems-FF6F61?style=flat-square" alt="Intelligent agent systems" />
 </p>
 
-- 🏆 **1 paper accepted by CVPR**
+- 📄 **1 paper accepted by CVPR**
 - 🔭 Research work centered on computer vision, deep learning, and intelligent AI systems
 
 ---
 
-## 🚀 Featured Projects
+## 📌 Featured Projects
 
 ### 🏥 MedLLM · 脑卒中多智能体临床辅助决策系统
 
@@ -96,7 +96,7 @@ Personalized **multi-agent learning system for stroke medical education**, power
 - ⚖️ **Quality control** — hybrid RAG, rule validation, reflection-correction and debate arbitration over auditable SSE streams
 - 🧰 **Stack** — Vue 3.5 · Vite · Java 21 · Spring Boot 3 · MyBatis-Plus · FastAPI · LangGraph · ChromaDB · Qwen
 
-### 🤖 More AI Projects
+### ⚙️ More AI Projects
 
 | 👔 [SuperBizAgent](https://github.com/AttentionCoo/super-biz-agent) | 🔭 [Space-RAG](https://github.com/AttentionCoo/space-rag-model) |
 | :--- | :--- |
@@ -116,7 +116,7 @@ Personalized **multi-agent learning system for stroke medical education**, power
 
 ## 🛠️ Tech Stack
 
-### 🤖 AI & Deep Learning
+### 🧠 AI & Deep Learning
 
 <p>
   <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn,opencv,anaconda" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda" />
