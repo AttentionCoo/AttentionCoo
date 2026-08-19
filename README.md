@@ -100,16 +100,16 @@ Personalized **multi-agent learning system for stroke medical education**, power
 
 | 👔 [SuperBizAgent](https://github.com/AttentionCoo/super-biz-agent) | 🔭 [Space-RAG](https://github.com/AttentionCoo/space-rag-model) |
 | :--- | :--- |
-| Enterprise chatbot & AIOps assistant — RAG knowledge base, Plan-Execute-Replan fault diagnosis, MCP tool integration. `FastAPI · LangChain · LangGraph · Milvus` | Astronomy multi-source RAG Q&A — BM25 + M3E hybrid retrieval across a local PDF vector DB, Wikipedia corpus and real-time Google search. |
+| Enterprise chatbot & AIOps assistant — RAG knowledge base, Plan-Execute-Replan fault diagnosis, MCP tool integration. `FastAPI · LangChain · LangGraph · Milvus` | Astronomy multi-source RAG Q&A — BM25 + M3E hybrid retrieval over a local astronomy PDF vector DB, Wikipedia internal corpus and real-time Google Serper search, orchestrated by an AI Agent. |
 
 | 🚢 [Titanic FT-Transformer](https://github.com/AttentionCoo/Titanic-FT-Transformer) | 📈 [Store Sales Forecasting](https://github.com/AttentionCoo/store-sales---time-series-forecasting) |
 | :--- | :--- |
-| Tabular Transformer with strong regularization — Title/FamilySize feature engineering, DropPath, residual connections, 5-fold CV **84.51%**. | Kaggle time-series forecasting — LightGBM + high-order lag/rolling features, log1p target, strict time-split validation (RMSLE). |
+| FT-Transformer (Feature Tokenizer + Transformer) — Title/FamilySize/Deck feature engineering, DropPath regularization + feature residual, 5-fold CV **84.51% ± 1.24%**. | LightGBM time-series forecasting — high-order lag/rolling features, multi-source merge (oil / holidays / stores / transactions), log1p target, strict time-split validation (RMSLE). |
 
 ### 🛠️ Tools & Collections
 
-- 🧬 [scrapy-ncbi](https://github.com/AttentionCoo/scrapy-ncbi) — async Scrapy crawler for NCBI literature (PubMed / PMC / Gene / BLAST)
-- 📖 [study-note](https://github.com/AttentionCoo/study-note) — personal knowledge base of AI, backend and engineering notes
+- 🧬 [scrapy-ncbi](https://github.com/AttentionCoo/scrapy-ncbi) — async Scrapy crawler for NCBI literature (PubMed / PMC / Gene / BLAST), random User-Agent middleware with polite rate limiting
+- 📖 [study-note](https://github.com/AttentionCoo/study-note) — personal knowledge base covering AI / LLM agents, Java backend, middleware and CS basics, with code examples
 - 💎 [anime-gems](https://github.com/AttentionCoo/anime-gems) — curated collection of beautiful anime artworks
 
 ---
