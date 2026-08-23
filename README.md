@@ -37,19 +37,19 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 关于我
 
-> Deep learning & LLM algorithm engineer with a solid Java backend foundation — building production-ready AI agent systems.
+> 深度学习与 LLM 算法工程师，具备扎实的 Java 后端基础 —— 致力于构建生产级的 AI 智能体系统。
 
-- 🔭 **Currently building:** [MedLLM](https://github.com/AttentionCoo/stroke-multi-agent-cdss) — a stroke multi-agent clinical decision support system, and [LearnAgent](https://github.com/AttentionCoo/learning-characterizing-mas) — a personalized medical-education multi-agent system
-- 🧠 **Focused on:** Computer Vision, Large Language Models, RAG, AI Agent & Multi-Agent Systems, Backend Engineering
-- 🎯 **Research interests:** Transformer architecture, model fine-tuning (PEFT), inference optimization, multimodal AI
-- 📄 **Publication:** 1 paper accepted by CVPR
-- 💬 **Ask me anything:** [open an issue](https://github.com/AttentionCoo/AttentionCoo/issues) and let's talk
+- 🔭 **正在构建：** [MedLLM](https://github.com/AttentionCoo/stroke-multi-agent-cdss) — 卒中多智能体临床决策支持系统，以及 [LearnAgent](https://github.com/AttentionCoo/learning-characterizing-mas) — 个性化医学教育多智能体系统
+- 🧠 **专注方向：** 计算机视觉、大语言模型、RAG、AI 智能体与多智能体系统、后端工程
+- 🎯 **研究兴趣：** Transformer 架构、模型微调（PEFT）、推理优化、多模态 AI
+- 📄 **论文发表：** 1 篇论文被 CVPR 接收
+- 💬 **问题交流：** [欢迎提 issue](https://github.com/AttentionCoo/AttentionCoo/issues) 一起讨论
 
 ---
 
-## 🔬 Research Highlights
+## 🔬 研究亮点
 
 <p align="center">
   <img src="https://img.shields.io/badge/Transformer%20Architecture-FF71CE?style=flat-square" alt="Transformer architecture" />
@@ -59,12 +59,12 @@
   <img src="https://img.shields.io/badge/Agent%20Systems-FF6F61?style=flat-square" alt="Intelligent agent systems" />
 </p>
 
-- 📄 **1 paper accepted by CVPR**
-- 🔭 Research work centered on computer vision, deep learning, and intelligent AI systems
+- 📄 **1 篇论文被 CVPR 接收**
+- 🔭 研究聚焦于计算机视觉、深度学习与智能 AI 系统
 
 ---
 
-## 📌 Featured Projects
+## 📌 精选项目
 
 ### 🏥 MedLLM · 脑卒中多智能体临床辅助决策系统
 
@@ -72,14 +72,14 @@
   <img src="https://img.shields.io/badge/Repository-stroke--multi--agent--cdss-FF71CE?style=flat-square&logo=github&logoColor=white" alt="stroke-multi-agent-cdss" />
 </a>
 
-Role-playing **multi-agent stroke CDSS** — evidence-first, process-transparent, clinically audited.
+基于角色扮演的**多智能体卒中临床决策支持系统（CDSS）** —— 证据先行、过程透明、临床可审计。
 
-- 🧑‍⚕️ **Multi-expert matrix collaboration** — GP / neurologist / clinical pharmacist debate through cross-examination, converging on a chair-moderated, auditable consensus (LangGraph)
-- 🔎 **Deep-customized Hybrid RAG** — ChromaDB + BM25 dual retrieval, 5 theme-isolated collections, RRF fusion, medical evidence re-ranking, agentic retrieval loops, RAGAS benchmarks
-- ⚡ **Full-stack SSE streaming** — chain-of-thought rendered live, three experts' opinions scroll in parallel
-- 🛠️ **8 built-in stroke tools** — NIHSS / mRS / GCS scales, rt-PA dosing, thrombolysis time windows, TOAST & LVO screening
-- 🧠 **3-tier patient memory** — short-term / episodic / semantic memory with doctor-side audit
-- 🧰 **Stack** — Vue 3.5 · Spring Boot · FastAPI · LangGraph · Redis · MySQL · Docker
+- 🧑‍⚕️ **多专家矩阵协作** — 全科医生 / 神经科医生 / 临床药师交叉质询辩论，收敛为主持人主持的可审计共识（LangGraph）
+- 🔎 **深度定制混合 RAG** — ChromaDB + BM25 双路检索、5 个主题隔离集合、RRF 融合、医学证据重排、智能体检索循环、RAGAS 评测
+- ⚡ **全栈 SSE 流式输出** — 思维链实时渲染，三位专家意见并行滚动
+- 🛠️ **8 个内置卒中工具** — NIHSS / mRS / GCS 量表、rt-PA 剂量、溶栓时间窗、TOAST 与 LVO 筛查
+- 🧠 **三层患者记忆** — 短期 / 情景 / 语义记忆，医生端可审计
+- 🧰 **技术栈** — Vue 3.5 · Spring Boot · FastAPI · LangGraph · Redis · MySQL · Docker
 
 ### 🎓 LearnAgent · 医学教育学习多智能体系统
 
@@ -88,35 +88,35 @@ Role-playing **multi-agent stroke CDSS** — evidence-first, process-transparent
 </a>
 <img src="https://img.shields.io/badge/15th%20China%20Software%20Cup-A3%20Track%20%7C%20iFLYTEK-01CDFE?style=flat-square" alt="15th China Software Cup, A3 track by iFLYTEK" />
 
-Personalized **multi-agent learning system for stroke medical education**, powered by 9 expert agents.
+面向卒中医学教育的个性化**多智能体学习系统**，由 9 个专家智能体驱动。
 
-- 👤 **8-dimension learner profiling** and 8 types of resource generation — lectures, mind-maps, exercises, clinical cases, study plans and more
-- 🗺️ **Learning-path planning** — dynamic adjustment, progress tracking and resource recommendation
-- 🖼️ **Medical multimodality** — Qwen-VL image analysis, multi-image comparison, DICOM metadata and OCR of prescriptions & lab reports
-- ⚖️ **Quality control** — hybrid RAG, rule validation, reflection-correction and debate arbitration over auditable SSE streams
-- 🧰 **Stack** — Vue 3.5 · Vite · Java 21 · Spring Boot 3 · MyBatis-Plus · FastAPI · LangGraph · ChromaDB · Qwen
+- 👤 **八维学习者画像**，支持 8 类资源生成 —— 讲义、思维导图、练习题、临床案例、学习计划等
+- 🗺️ **学习路径规划** — 动态调整、进度跟踪与资源推荐
+- 🖼️ **医学多模态** — Qwen-VL 图像分析、多图对比、DICOM 元数据、处方与检验报告 OCR
+- ⚖️ **质量控制** — 混合 RAG、规则校验、反思修正与辩论仲裁，基于可审计的 SSE 流
+- 🧰 **技术栈** — Vue 3.5 · Vite · Java 21 · Spring Boot 3 · MyBatis-Plus · FastAPI · LangGraph · ChromaDB · Qwen
 
-### ⚙️ More AI Projects
+### ⚙️ 更多 AI 项目
 
 | 👔 [SuperBizAgent](https://github.com/AttentionCoo/super-biz-agent) | 🔭 [Space-RAG](https://github.com/AttentionCoo/space-rag-model) |
 | :--- | :--- |
-| Enterprise chatbot & AIOps assistant — RAG knowledge base, Plan-Execute-Replan fault diagnosis, MCP tool integration. `FastAPI · LangChain · LangGraph · Milvus` | Astronomy multi-source RAG Q&A — BM25 + M3E hybrid retrieval over a local astronomy PDF vector DB, Wikipedia internal corpus and real-time Google Serper search, orchestrated by an AI Agent. |
+| 企业级聊天机器人 & AIOps 助手 — RAG 知识库、Plan-Execute-Replan 故障诊断、MCP 工具集成。`FastAPI · LangChain · LangGraph · Milvus` | 天文多源 RAG 问答 — 基于本地天文 PDF 向量库、维基百科内部语料与 Google Serper 实时搜索的 BM25 + M3E 混合检索，由 AI Agent 统一编排。 |
 
 | 🚢 [Titanic FT-Transformer](https://github.com/AttentionCoo/Titanic-FT-Transformer) | 📈 [Store Sales Forecasting](https://github.com/AttentionCoo/store-sales---time-series-forecasting) |
 | :--- | :--- |
-| FT-Transformer (Feature Tokenizer + Transformer) — Title/FamilySize/Deck feature engineering, DropPath regularization + feature residual, 5-fold CV **84.51% ± 1.24%**. | LightGBM time-series forecasting — high-order lag/rolling features, multi-source merge (oil / holidays / stores / transactions), log1p target, strict time-split validation (RMSLE). |
+| FT-Transformer（特征分词器 + Transformer）— Title/FamilySize/Deck 特征工程、DropPath 正则化 + 特征残差，5 折交叉验证 **84.51% ± 1.24%**。 | LightGBM 时间序列预测 — 高阶滞后/滚动特征、多源数据合并（油价 / 节假日 / 商店 / 交易）、log1p 目标变换、严格时间切分验证（RMSLE）。 |
 
-### 🛠️ Tools & Collections
+### 🛠️ 工具与收藏
 
-- 🧬 [scrapy-ncbi](https://github.com/AttentionCoo/scrapy-ncbi) — async Scrapy crawler for NCBI literature (PubMed / PMC / Gene / BLAST), random User-Agent middleware with polite rate limiting
-- 📖 [study-note](https://github.com/AttentionCoo/study-note) — personal knowledge base covering AI / LLM agents, Java backend, middleware and CS basics, with code examples
-- 💎 [anime-gems](https://github.com/AttentionCoo/anime-gems) — curated collection of beautiful anime artworks
+- 🧬 [scrapy-ncbi](https://github.com/AttentionCoo/scrapy-ncbi) — 面向 NCBI 文献（PubMed / PMC / Gene / BLAST）的异步 Scrapy 爬虫，带随机 User-Agent 中间件与合规限速
+- 📖 [study-note](https://github.com/AttentionCoo/study-note) — 涵盖 AI / LLM 智能体、Java 后端、中间件与计算机基础的个人知识库，附代码示例
+- 💎 [anime-gems](https://github.com/AttentionCoo/anime-gems) — 精心整理的优质动漫美图收藏
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ 技术栈
 
-### 🧠 AI & Deep Learning
+### 🧠 AI 与深度学习
 
 <p>
   <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn,opencv,anaconda" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda" />
@@ -132,7 +132,7 @@ Personalized **multi-agent learning system for stroke medical education**, power
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
 </p>
 
-### 🧩 LLM & Agent Frameworks
+### 🧩 LLM 与智能体框架
 
 <p>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
@@ -145,7 +145,7 @@ Personalized **multi-agent learning system for stroke medical education**, power
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
 </p>
 
-### ☕ Backend Engineering
+### ☕ 后端工程
 
 <p>
   <img src="https://skillicons.dev/icons?i=java,spring,mysql,redis,mongodb,docker,linux,nginx,kafka,vue" alt="Java, Spring, MySQL, Redis, MongoDB, Docker, Linux, Nginx, Kafka, Vue" />
@@ -169,7 +169,7 @@ Personalized **multi-agent learning system for stroke medical education**, power
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub 统计
 
 <p align="center">
   <img height="180" src="generated/github-stats.svg" alt="GitHub stats for AttentionCoo" />
@@ -182,7 +182,7 @@ Personalized **multi-agent learning system for stroke medical education**, power
 
 ---
 
-## 🏆 GitHub Trophy
+## 🏆 GitHub 奖杯
 
 <p align="center">
   <img src="generated/trophy.svg" alt="GitHub trophy for AttentionCoo" />
@@ -196,5 +196,5 @@ Personalized **multi-agent learning system for stroke medical education**, power
 </p>
 
 <p align="center">
-  Building intelligent systems with AI ⚡
+  用 AI 构建智能系统 ⚡
 </p>
