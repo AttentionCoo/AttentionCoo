@@ -39,7 +39,7 @@
 
 ## 🧑‍💻 关于我
 
-> 深度学习与 LLM 算法工程师，具备扎实的 Java 后端基础 —— 致力于构建生产级的 AI 智能体系统。
+> 深度学习与 LLM 算法和应用工程师，具备扎实的 Java 后端基础 —— 致力于构建生产级的 AI 智能体系统。
 
 - 🔭 **正在构建：** [MedLLM](https://github.com/AttentionCoo/stroke-multi-agent-cdss) — 卒中多智能体临床决策支持系统，以及 [LearnAgent](https://github.com/AttentionCoo/learning-characterizing-mas) — 个性化医学教育多智能体系统
 - 🧠 **专注方向：** 计算机视觉、大语言模型、RAG、AI 智能体与多智能体系统、后端工程
