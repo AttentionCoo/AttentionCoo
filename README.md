@@ -74,12 +74,14 @@
 
 基于角色扮演的**多智能体卒中临床决策支持系统（CDSS）** —— 证据先行、过程透明、临床可审计。
 
-- 🧑‍⚕️ **多专家矩阵协作** — 全科医生 / 神经科医生 / 临床药师交叉质询辩论，收敛为主持人主持的可审计共识（LangGraph）
-- 🔎 **深度定制混合 RAG** — ChromaDB + BM25 双路检索、5 个主题隔离集合、RRF 融合、医学证据重排、智能体检索循环、RAGAS 评测
-- ⚡ **全栈 SSE 流式输出** — 思维链实时渲染，三位专家意见并行滚动
+- 🛡️ **医疗安全三角架构** — 外层 LangGraph 流程控制（关键节点人工/规则审批）· 中层多专家协同推理 · 后层"禁忌症规则硬拦截 + LLM 反思软审查"双重校验，失败自动拉回反思循环
+- 🧑‍⚕️ **双轴矩阵多专家协作** — 全科医生 / 神经专科医生 / 临床药师并行推理，Proposer-Critic-Integrator 状态机交叉把关，模拟 MDT 会诊与三级医疗把关（LangGraph）
+- 🔎 **证据前置的深度定制 Hybrid RAG** — ChromaDB + BM25 双路并发检索，AI 批量衍生 Q:A 对提升召回，gte-rerank 深度重排，报告强制附文献名称与页码溯源
+- ⚡ **全栈响应式流式管道** — Java WebFlux + Python Asyncio + Vue 3 ReadableStream 打通，思维链实时渲染、专家意见并行滚动
+- 🧠 **患者电子档案（EHR）** — 连续性健康管理与医生端审计，问诊后异步总结更新上下文，多轮就诊个体化风险评估
 - 🛠️ **8 个内置卒中工具** — NIHSS / mRS / GCS 量表、rt-PA 剂量、溶栓时间窗、TOAST 与 LVO 筛查
-- 🧠 **三层患者记忆** — 短期 / 情景 / 语义记忆，医生端可审计
-- 🧰 **技术栈** — Vue 3.5 · Spring Boot · FastAPI · LangGraph · Redis · MySQL · Docker
+- 📊 **权威评测表现** — RAGAS 忠实度 0.94 / 上下文精准度 0.91；临床专家盲评：诊断符合率 94.2%、禁忌症遗漏 0%、指南契合度 89.5%
+- 🧰 **技术栈** — Vue 3 + Vite 7 · Java 17 Spring Boot 3 (WebFlux) · Redis 6.0 + Redisson · MySQL 8.0 · Python FastAPI · LangGraph · Qwen-Max · gte-rerank
 
 ### 🎓 LearnAgent · 医学教育学习多智能体系统
 
