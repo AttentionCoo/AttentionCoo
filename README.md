@@ -90,14 +90,15 @@
 </a>
 <img src="https://img.shields.io/badge/15th%20China%20Software%20Cup-A3%20Track%20%7C%20iFLYTEK-01CDFE?style=flat-square" alt="15th China Software Cup, A3 track by iFLYTEK" />
 
-面向卒中医学教育的个性化**多智能体学习系统** —— 以「画像 → 个性化学习 → 效果评估 → 反馈优化」学习闭环贯穿全局，由 10 位领域专家 + 证据仲裁 + 监督者（Supervisor）驱动。
+面向卒中医学教育的个性化**多智能体学习系统** —— 以「画像 → 个性化学习 → 效果评估 → 反馈优化」学习闭环贯穿全局：**监督者为脑、专家为手**，监督者 LLM 动态决定"下一步调谁"，10 位可寻址专家 Agent + 证据仲裁协作执行。
 
 - 🧠 **8 维证据链学习画像** — 每维携带 source/confidence/evidence 与五态证据状态，只记录有证据的事实，画像由证据渲染器确定性生成，杜绝模型推断污染
+- 🧭 **监督者主路由** — Supervisor（LLM + 5 工具：循证检索 / 多专家会诊 / 精确点将 / 画像查询 / 结构化报告）动态调度下一步；Planner-RePlan 保留为确定性回退链路
+- 👨‍⚕️ **专家注册表与会诊仲裁** — 10 位专家实例化为可寻址 Specialist Agent，支持精确点将单挑或多专家会诊；结构化消息 + 共享黑板，Claim/Evidence 仲裁逐条判定证据，禁纯认同、强制信息增量
 - 🔄 **学习闭环** — 画像 → 个性化学习 → 效果评估 → 反馈优化，薄弱点自动回流画像、路径动态调整
 - 🗺️ **路径规划与资源生成** — 学习路径动态调整、进度跟踪与资源推荐，支持课程讲解、思维导图、练习题、拓展阅读、临床案例等 6 类资源
-- 👨‍⚕️ **专家会诊与证据仲裁** — 10 位专家结构化消息会诊 + 共享黑板协作，Claim/Evidence 仲裁逐条判定证据充分性，禁止纯认同、强制信息增量
-- ⚖️ **编排驱动与质量控制** — LangGraph 状态图 + RePlan 规划-执行-校验循环，功能级输入守卫、Hybrid RAG、规则校验、反思修正、共享记忆
 - 🖼️ **医学多模态** — Qwen VL 影像分析、病例流式分析、多图对比、DICOM 元数据、检验报告与处方 OCR
+- ⚖️ **质量控制** — 功能级输入守卫、Hybrid RAG、规则校验、反思修正、共享记忆、推理并发治理
 - 📊 **智能辅导与代码辅助** — 多轮 SSE 问答、六章节结构化输出；Python 执行、代码补全、错误诊断与讲解
 - 🧰 **技术栈** — Vue 3.5 + Vite 7 · Java 21 Spring Boot 3.5 · MyBatis-Plus · MySQL 8 + Redis 7 · Python FastAPI · LangGraph · LangChain · ChromaDB · Qwen（Chat / Embedding / Rerank / VL）
 
