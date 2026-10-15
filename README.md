@@ -1,206 +1,188 @@
-<!-- ===================== Header banner ===================== -->
+<!-- 顶部横幅与个人介绍 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF71CE,50:01CDFE,100:B967FF&height=200&section=header&text=AttentionCoo&fontSize=70&fontAlignY=35&fontColor=ffffff&animation=twinkling" alt="AttentionCoo banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF71CE,50:01CDFE,100:B967FF&height=120&section=header" alt="粉紫渐变波浪横幅" />
 </p>
 
-<!-- ===================== Typing intro (readme-typing-svg) ===================== -->
+<h1 align="center">你好，我是 AttentionCoo 👋</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=FF71CE&center=true&vCenter=true&width=640&height=60&lines=AI+Researcher+%26+Algorithm+Engineer;Computer+Vision+%7C+Deep+Learning+%7C+LLM;Building+Medical+%26+Education+Multi-Agents;1+x+CVPR+Accepted+Paper" alt="Typing intro" />
+  <strong>深度学习与 LLM 应用工程师 · Java 后端开发</strong><br />
+  关注计算机视觉、检索增强生成与多智能体系统，让研究走向可用的产品。
 </p>
 
-<!-- ===================== Character gallery ===================== -->
 <p align="center">
-  <img src="assets/bqj.jpg" width="180" alt="Profile image 1" />
-  <img src="assets/welt.jpg" width="180" alt="Profile image 2" />
-  <img src="assets/fnn.jpg" width="180" alt="Profile image 3" />
-  <img src="assets/bz.jpg" width="180" alt="Profile image 4" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF71CE&center=true&vCenter=true&width=600&height=45&lines=Computer+Vision+%7C+Deep+Learning+%7C+LLM;RAG+%7C+Multi-Agent+Systems;Building+AI+for+Healthcare+%26+Education" alt="计算机视觉、深度学习、LLM、RAG 与多智能体系统" />
 </p>
 
-<!-- ===================== Social & status badges ===================== -->
 <p align="center">
-  <a href="https://github.com/AttentionCoo">
-    <img src="https://img.shields.io/badge/GitHub-AttentionCoo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: AttentionCoo" />
-  </a>
   <a href="https://github.com/AttentionCoo?tab=followers">
-    <img src="https://custom-icon-badges.demolab.com/github/followers/AttentionCoo?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/AttentionCoo?style=flat-square&logo=github&label=Follow&color=B967FF" alt="关注 AttentionCoo" />
   </a>
   <a href="https://github.com/AttentionCoo?tab=repositories&sort=stargazers">
-    <img src="https://custom-icon-badges.demolab.com/github/stars/AttentionCoo?color=55960c&style=for-the-badge&labelColor=488207&logo=star" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/stars/AttentionCoo?style=flat-square&logo=github&label=Stars&color=01CDFE" alt="GitHub 项目获星数" />
   </a>
-  <img src="https://img.shields.io/badge/Researcher-Computer%20Vision-B967FF?style=for-the-badge" alt="Computer Vision Researcher" />
-  <img src="https://img.shields.io/badge/CVPR-1%20Accepted%20Paper-01CDFE?style=for-the-badge" alt="One CVPR accepted paper" />
   <a href="https://github.com/AttentionCoo/AttentionCoo/issues">
-    <img src="https://img.shields.io/badge/Ask%20me%20anything-FF6F61?style=for-the-badge&logo=github&logoColor=white" alt="Ask me anything" />
+    <img src="https://img.shields.io/badge/交流-Issues-FF71CE?style=flat-square&logo=github&logoColor=white" alt="通过 GitHub Issues 交流" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=AttentionCoo&style=for-the-badge&color=orange" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=AttentionCoo&style=flat-square&color=B967FF&label=Views" alt="主页访问量" />
+</p>
+
+<p align="center">
+  <a href="#about">关于我</a> ·
+  <a href="#projects">精选项目</a> ·
+  <a href="#stack">技术栈</a> ·
+  <a href="#activity">GitHub 动态</a>
 </p>
 
 ---
+
+<a id="about"></a>
 
 ## 🧑‍💻 关于我
 
-> 深度学习与 LLM 算法和应用工程师，具备扎实的 Java 后端基础 —— 致力于构建生产级的 AI 智能体系统。
+- 🔭 **正在构建**：[MedLLM](https://github.com/AttentionCoo/stroke-multi-agent-cdss) 卒中临床辅助决策系统与 [LearnAgent](https://github.com/AttentionCoo/learning-characterizing-mas) 个性化医学教育系统。
+- 🧠 **关注方向**：计算机视觉、LLM、Hybrid RAG、多智能体协作与后端工程。
+- 🔬 **研究兴趣**：Transformer 架构、参数高效微调（PEFT）、模型量化、推理优化与多模态 AI。
+- 📄 **论文成果**：1 篇论文被 CVPR 接收。
+- 💬 **欢迎交流**：通过 [Issues](https://github.com/AttentionCoo/AttentionCoo/issues) 讨论研究、工程实践与项目想法。
 
-- 🔭 **正在构建：** [MedLLM](https://github.com/AttentionCoo/stroke-multi-agent-cdss) — 卒中多智能体临床决策支持系统，以及 [LearnAgent](https://github.com/AttentionCoo/learning-characterizing-mas) — 个性化医学教育多智能体系统
-- 🧠 **专注方向：** 计算机视觉、大语言模型、RAG、AI 智能体与多智能体系统、后端工程
-- 🎯 **研究兴趣：** Transformer 架构、模型微调（PEFT）、推理优化、多模态 AI
-- 📄 **论文发表：** 1 篇论文被 CVPR 接收
-- 💬 **问题交流：** [欢迎提 issue](https://github.com/AttentionCoo/AttentionCoo/issues) 一起讨论
-
----
-
-## 🔬 研究亮点
-
+<!-- 统一图片高度，保持原始比例 -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Transformer%20Architecture-FF71CE?style=flat-square" alt="Transformer architecture" />
-  <img src="https://img.shields.io/badge/PEFT-01CDFE?style=flat-square" alt="Parameter efficient fine-tuning" />
-  <img src="https://img.shields.io/badge/Model%20Quantization-B967FF?style=flat-square" alt="Model quantization" />
-  <img src="https://img.shields.io/badge/Multimodal%20AI-05FFA1?style=flat-square" alt="Multimodal AI" />
-  <img src="https://img.shields.io/badge/Agent%20Systems-FF6F61?style=flat-square" alt="Intelligent agent systems" />
+  <img src="assets/bqj.jpg" height="150" alt="个人主页角色插画 1" />
+  <img src="assets/welt.jpg" height="150" alt="个人主页角色插画 2" />
+  <img src="assets/fnn.jpg" height="150" alt="个人主页角色插画 3" />
+  <img src="assets/bz.jpg" height="150" alt="个人主页角色插画 4" />
 </p>
 
-- 📄 **1 篇论文被 CVPR 接收**
-- 🔭 研究聚焦于计算机视觉、深度学习与智能 AI 系统
-
 ---
+
+<a id="projects"></a>
 
 ## 📌 精选项目
 
-### 🏥 MedLLM · 脑卒中多智能体临床辅助决策系统
+### 🏥 [MedLLM · 脑卒中临床辅助决策系统](https://github.com/AttentionCoo/stroke-multi-agent-cdss)
 
-<a href="https://github.com/AttentionCoo/stroke-multi-agent-cdss">
-  <img src="https://img.shields.io/badge/Repository-stroke--multi--agent--cdss-FF71CE?style=flat-square&logo=github&logoColor=white" alt="stroke-multi-agent-cdss" />
-</a>
+面向脑卒中场景的临床辅助决策原型，以**证据检索 → 多专家协作 → 校验与医生复核**串联分析流程。
 
-基于角色扮演的**多智能体卒中临床决策支持系统（CDSS）** —— 证据先行、过程透明、临床可审计。
+- **受控协作**：LangGraph 编排全科、神经专科与临床药师的独立意见、交叉质询与主持人共识。
+- **证据溯源**：Hybrid RAG 融合语义与关键词检索，结合重排、证据充分性检查和有界重检索，报告引用文献与页码。
+- **全栈交付**：Vue、Spring WebFlux 与 FastAPI 通过 SSE 展示分析阶段、专家意见、引用依据和报告。
 
-- 🛡️ **医疗安全三角架构** — 外层 LangGraph 流程控制（关键节点人工/规则审批）· 中层多专家协同推理 · 后层"禁忌症规则硬拦截 + LLM 反思软审查"双重校验，失败自动拉回反思循环
-- 🧑‍⚕️ **双轴矩阵多专家协作** — 全科医生 / 神经专科医生 / 临床药师并行推理，Proposer-Critic-Integrator 状态机交叉把关，模拟 MDT 会诊与三级医疗把关（LangGraph）
-- 🔎 **证据前置的深度定制 Hybrid RAG** — ChromaDB + BM25 双路并发检索，AI 批量衍生 Q:A 对提升召回，gte-rerank 深度重排，报告强制附文献名称与页码溯源
-- ⚡ **全栈响应式流式管道** — Java WebFlux + Python Asyncio + Vue 3 ReadableStream 打通，思维链实时渲染、专家意见并行滚动
-- 🧠 **患者电子档案（EHR）** — 连续性健康管理与医生端审计，问诊后异步总结更新上下文，多轮就诊个体化风险评估
-- 🛠️ **8 个内置卒中工具** — NIHSS / mRS / GCS 量表、rt-PA 剂量、溶栓时间窗、TOAST 与 LVO 筛查
-- 📊 **权威评测表现** — RAGAS 忠实度 0.94 / 上下文精准度 0.91；临床专家盲评：诊断符合率 94.2%、禁忌症遗漏 0%、指南契合度 89.5%
-- 🧰 **技术栈** — Vue 3 + Vite 7 · Java 17 Spring Boot 3 (WebFlux) · Redis 6.0 + Redisson · MySQL 8.0 · Python FastAPI · LangGraph · Qwen-Max · gte-rerank
+`Vue 3` · `Spring Boot / WebFlux` · `FastAPI` · `LangGraph` · `ChromaDB / BM25` · `MySQL / Redis`
 
-### 🎓 LearnAgent · 医学教育学习多智能体系统
+<details>
+<summary>展开：领域工具与工程设计</summary>
 
-<a href="https://github.com/AttentionCoo/learning-characterizing-mas">
-  <img src="https://img.shields.io/badge/Repository-learning--characterizing--mas-B967FF?style=flat-square&logo=github&logoColor=white" alt="learning-characterizing-mas" />
-</a>
-<img src="https://img.shields.io/badge/15th%20China%20Software%20Cup-A3%20Track%20%7C%20iFLYTEK-01CDFE?style=flat-square" alt="15th China Software Cup, A3 track by iFLYTEK" />
+- **领域工具**：支持 NIHSS、mRS、GCS 量表、溶栓时间窗、rt-PA 剂量与禁忌证筛查等评估工具。
+- **患者记忆**：关联患者档案与历史评估，为连续就诊提供上下文。
+- **流程控制**：结构化预评估、规则校验、有界反思循环与医生复核，保留审计记录。
+- **质量验证**：分层自动化测试与可复现评测，持续检查检索质量和输出约束。
 
-面向卒中医学教育的个性化**多智能体学习系统** —— 以「画像 → 个性化学习 → 效果评估 → 反馈优化」学习闭环贯穿全局：**监督者为脑、专家为手**，监督者 LLM 动态决定"下一步调谁"，10 位可寻址专家 Agent + 证据仲裁协作执行。
+架构、部署与评测说明见[项目 README](https://github.com/AttentionCoo/stroke-multi-agent-cdss#readme)。
 
-- 🧠 **8 维证据链学习画像** — 每维携带 source/confidence/evidence 与五态证据状态，只记录有证据的事实，画像由证据渲染器确定性生成，杜绝模型推断污染
-- 🧭 **监督者主路由** — Supervisor（LLM + 5 工具：循证检索 / 多专家会诊 / 精确点将 / 画像查询 / 结构化报告）动态调度下一步；Planner-RePlan 保留为确定性回退链路
-- 👨‍⚕️ **专家注册表与会诊仲裁** — 10 位专家实例化为可寻址 Specialist Agent，支持精确点将单挑或多专家会诊；结构化消息 + 共享黑板，Claim/Evidence 仲裁逐条判定证据，禁纯认同、强制信息增量
-- 🔄 **学习闭环** — 画像 → 个性化学习 → 效果评估 → 反馈优化，薄弱点自动回流画像、路径动态调整
-- 🗺️ **路径规划与资源生成** — 学习路径动态调整、进度跟踪与资源推荐，支持课程讲解、思维导图、练习题、拓展阅读、临床案例等 6 类资源
-- 🖼️ **医学多模态** — Qwen VL 影像分析、病例流式分析、多图对比、DICOM 元数据、检验报告与处方 OCR
-- ⚖️ **质量控制** — 功能级输入守卫、Hybrid RAG、规则校验、反思修正、共享记忆、推理并发治理
-- 📊 **智能辅导与代码辅助** — 多轮 SSE 问答、六章节结构化输出；Python 执行、代码补全、错误诊断与讲解
-- 🧰 **技术栈** — Vue 3.5 + Vite 7 · Java 21 Spring Boot 3.5 · MyBatis-Plus · MySQL 8 + Redis 7 · Python FastAPI · LangGraph · LangChain · ChromaDB · Qwen（Chat / Embedding / Rerank / VL）
+</details>
 
-### ⚙️ 更多 AI 项目
+### 🎓 [LearnAgent · 个性化医学教育系统](https://github.com/AttentionCoo/learning-characterizing-mas)
 
-| 👔 [SuperBizAgent](https://github.com/AttentionCoo/super-biz-agent) | 🔭 [Space-RAG](https://github.com/AttentionCoo/space-rag-model) |
-| :--- | :--- |
-| 企业级聊天机器人 & AIOps 助手 — RAG 知识库、Plan-Execute-Replan 故障诊断、MCP 工具集成。`FastAPI · LangChain · LangGraph · Milvus` | 天文多源 RAG 问答 — 基于本地天文 PDF 向量库、维基百科内部语料与 Google Serper 实时搜索的 BM25 + M3E 混合检索，由 AI Agent 统一编排。 |
+面向脑卒中医学教育，以**画像 → 个性化学习 → 效果评估 → 反馈优化**组织学习闭环。
 
-| 🚢 [Titanic FT-Transformer](https://github.com/AttentionCoo/Titanic-FT-Transformer) | 📈 [Store Sales Forecasting](https://github.com/AttentionCoo/store-sales---time-series-forecasting) |
-| :--- | :--- |
-| FT-Transformer（特征分词器 + Transformer）— Title/FamilySize/Deck 特征工程、DropPath 正则化 + 特征残差，5 折交叉验证 **84.51% ± 1.24%**。 | LightGBM 时间序列预测 — 高阶滞后/滚动特征、多源数据合并（油价 / 节假日 / 商店 / 交易）、log1p 目标变换、严格时间切分验证（RMSLE）。 |
+- **监督者调度**：Supervisor 通过 5 个工具动态调度检索、专家与报告生成，协同 10 位可寻址 Specialist Agent。
+- **证据驱动画像**：8 维学习画像记录来源、置信度与证据状态，仅将有证据支撑的事实写入长期画像。
+- **个性化学习**：贯通资源生成、路径规划、循证辅导与学习评估，将薄弱点反馈至画像和后续学习。
 
-### 🛠️ 工具与收藏
+`Vue 3` · `Spring Boot` · `FastAPI` · `LangGraph / LangChain` · `ChromaDB` · `Qwen / VL` · `MySQL / Redis`
 
-- 🧬 [scrapy-ncbi](https://github.com/AttentionCoo/scrapy-ncbi) — 面向 NCBI 文献（PubMed / PMC / Gene / BLAST）的异步 Scrapy 爬虫，带随机 User-Agent 中间件与合规限速
-- 📖 [study-note](https://github.com/AttentionCoo/study-note) — 涵盖 AI / LLM 智能体、Java 后端、中间件与计算机基础的个人知识库，附代码示例
-- 💎 [anime-gems](https://github.com/AttentionCoo/anime-gems) — 精心整理的优质动漫美图收藏
+<details>
+<summary>展开：专家协作与教学能力</summary>
+
+- **专家协作**：结构化消息与共享黑板支持多专家会诊，Claim/Evidence 仲裁核对证据与结论。
+- **资源生成**：支持课程讲解、思维导图、练习题、拓展阅读、临床案例与资源设计方案 6 类资源。
+- **医学多模态**：支持影像分析、多图对比、DICOM 元数据以及检验报告与处方 OCR。
+- **质量控制**：输入守卫、规则校验、反思修正与并发治理；Planner / RePlan 作为监督者的确定性回退链路。
+- **代码辅助**：支持 Python 执行、代码补全、错误诊断与讲解。
+
+中国软件杯 A3 赛题参赛作品。功能与架构说明见[项目 README](https://github.com/AttentionCoo/learning-characterizing-mas#readme)。
+
+</details>
+
+### ⚙️ 更多探索
+
+| 项目 | 方向 | 核心实践 |
+| :--- | :--- | :--- |
+| [SuperBizAgent](https://github.com/AttentionCoo/super-biz-agent) | 企业助手与 AIOps | RAG 知识库、Plan-Execute-Replan 故障诊断、MCP 工具集成 |
+| [Space-RAG](https://github.com/AttentionCoo/space-rag-model) | 天文知识问答 | 本地 PDF 与在线检索、多源知识融合、BM25 + M3E 混合检索 |
+| [Titanic FT-Transformer](https://github.com/AttentionCoo/Titanic-FT-Transformer) | 表格深度学习 | 特征工程、FT-Transformer、DropPath、5 折交叉验证 |
+| [Store Sales Forecasting](https://github.com/AttentionCoo/store-sales---time-series-forecasting) | 时间序列预测 | LightGBM、滞后与滚动特征、多源数据融合、时间切分验证 |
+
+### 🛠️ 工具与积累
+
+- [scrapy-ncbi](https://github.com/AttentionCoo/scrapy-ncbi)：面向 NCBI 文献与数据的异步 Scrapy 爬虫。
+- [study-note](https://github.com/AttentionCoo/study-note)：AI / LLM、Java 后端、中间件与计算机基础学习笔记。
+- [anime-gems](https://github.com/AttentionCoo/anime-gems)：动漫图片收藏。
 
 ---
+
+<a id="stack"></a>
 
 ## 🛠️ 技术栈
 
-### 🧠 AI 与深度学习
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn,opencv,anaconda" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,java,spring,mysql,redis,docker,linux,nginx,vue&perline=6" alt="Python、PyTorch、TensorFlow、OpenCV、Java、Spring、MySQL、Redis、Docker、Linux、Nginx、Vue" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-</p>
-
-### 🧩 LLM 与智能体框架
-
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/LlamaIndex-2B4DC9?style=flat-square&logo=llamaindex&logoColor=white" alt="LlamaIndex" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/ChromaDB-06E07F?style=flat-square&logo=chromadb&logoColor=black" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/Milvus-00A1EA?style=flat-square&logo=milvus&logoColor=white" alt="Milvus" />
-  <img src="https://img.shields.io/badge/Qwen-615CED?style=flat-square&logo=qwen&logoColor=white" alt="Qwen" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-</p>
-
-### ☕ 后端工程
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,redis,mongodb,docker,linux,nginx,kafka,vue" alt="Java, Spring, MySQL, Redis, MongoDB, Docker, Linux, Nginx, Kafka, Vue" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Cloud" />
-  <img src="https://img.shields.io/badge/MyBatis-1F1F1F?style=flat-square&logo=mybatis&logoColor=white" alt="MyBatis" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
-</p>
+| 领域 | 技术与工具 |
+| :--- | :--- |
+| 机器学习与视觉 | PyTorch · TensorFlow · scikit-learn · OpenCV · Hugging Face |
+| LLM 与智能体 | LangChain · LangGraph · LlamaIndex · Qwen · Ollama |
+| 检索与知识库 | ChromaDB · Milvus · BM25 · Rerank · Hybrid RAG |
+| 后端与数据 | Java · Spring Boot / Cloud · WebFlux · FastAPI · MyBatis · MySQL · Redis · MongoDB |
+| 前端与部署 | Vue · Docker · Linux · Nginx |
+| 数据分析 | NumPy · Pandas · Jupyter |
+| 消息中间件 | Kafka · RabbitMQ |
 
 ---
 
-## 📊 GitHub 统计
+<a id="activity"></a>
+
+## 📊 GitHub 动态
 
 <p align="center">
-  <img height="180" src="generated/github-stats.svg" alt="GitHub stats for AttentionCoo" />
-  <img height="180" src="generated/top-langs.svg" alt="Top languages for AttentionCoo" />
+  <a href="https://github.com/AttentionCoo">
+    <img width="56%" src="generated/github-stats.svg" alt="AttentionCoo 的 GitHub 活动统计" />
+  </a>
+  <a href="https://github.com/AttentionCoo?tab=repositories">
+    <img width="36%" src="generated/top-langs.svg" alt="AttentionCoo 仓库的语言分布" />
+  </a>
 </p>
 
+统计与奖杯卡片由 [GitHub Actions](.github/workflows/update-readme-widgets.yml) 每 12 小时定时更新。
+
+<details>
+<summary>🏆 展开 GitHub 奖杯</summary>
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AttentionCoo&theme=radical" alt="GitHub streak for AttentionCoo" />
+  <img width="100%" src="generated/trophy.svg" alt="AttentionCoo 的 GitHub 奖杯" />
 </p>
+
+</details>
+
+<details>
+<summary>🔥 展开连续贡献记录</summary>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=AttentionCoo&theme=radical" alt="AttentionCoo 的 GitHub 连续贡献记录" />
+</p>
+
+</details>
 
 ---
 
-## 🏆 GitHub 奖杯
-
 <p align="center">
-  <img src="generated/trophy.svg" alt="GitHub trophy for AttentionCoo" />
-</p>
-
----
-
-<!-- ===================== Footer ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=100:B967FF,50:01CDFE,0:FF71CE&height=120&section=footer" alt="Footer wave" />
+  <strong>用 AI 构建智能系统，让知识转化为行动。</strong><br />
+  <a href="https://github.com/AttentionCoo?tab=repositories">浏览我的项目</a> ·
+  <a href="https://github.com/AttentionCoo/AttentionCoo/issues">交流想法</a>
 </p>
 
 <p align="center">
-  用 AI 构建智能系统 ⚡
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=100:B967FF,50:01CDFE,0:FF71CE&height=100&section=footer" alt="粉紫渐变波浪页脚" />
 </p>
