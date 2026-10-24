@@ -1,0 +1,11 @@
+# 依赖与构建缓存（仅本地 / CI 使用，不提交）
+node_modules/
+.cache/
+npm-debug.log*
+
+# 本地运行脚本产生的日志
+*.log
+
+# 本机沙箱诊断与恢复文件，不参与发布
+.acl-recovery/
+.dsh-acl/

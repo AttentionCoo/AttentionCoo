@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - master
+      - main
     paths:
       - README.md
       - scripts/generate-readme-stats.mjs
